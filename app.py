@@ -3,7 +3,7 @@ import torch
 from transformers import BertTokenizerFast, BertForSequenceClassification
 
 # Load model
-MODEL_NAME = "malaika-sohail/spam_sms/"
+MODEL_NAME = "malaika-sohail/spam_sms"
 
 tokenizer = BertTokenizerFast.from_pretrained(MODEL_NAME)
 model = BertForSequenceClassification.from_pretrained(MODEL_NAME)
